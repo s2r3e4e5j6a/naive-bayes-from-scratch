@@ -28,7 +28,6 @@ In this project:
 ---
 
 ## 📂 Project Structure
-
 naive-bayes-from-scratch/
 │
 ├── data/
@@ -38,4 +37,4 @@ naive-bayes-from-scratch/
 │ └── naive_bayes.py # Naive Bayes implementation from scratch
 │
 ├── README.md # Project documentation
-└── requirements.txt # Python dependencies
+└── '''requirements.txt # Python dependencies'''
