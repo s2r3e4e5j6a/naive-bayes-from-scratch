@@ -29,3 +29,13 @@ In this project:
 
 ## 📂 Project Structure
 
+naive-bayes-from-scratch/
+│
+├── data/
+│ └── corpus_small.csv # Small text dataset (spam / ham)
+│
+├── src/
+│ └── naive_bayes.py # Naive Bayes implementation from scratch
+│
+├── README.md # Project documentation
+└── requirements.txt # Python dependencies
