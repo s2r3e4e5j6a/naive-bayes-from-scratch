@@ -71,3 +71,17 @@ test_sentences = [
 
 for sentence in test_sentences:
     print(sentence, "->", model.predict(sentence))
+#--------------------------
+# Accuracy Evaluation (Manual)
+# ----------------------------------
+
+correct = 0
+total = len(processed_texts)
+
+for text, true_label in zip(processed_texts, labels):
+    prediction = model.predict(" ".join(text))
+    if prediction == true_label:
+        correct += 1
+
+accuracy = correct / total
+print("\nModel Accuracy:", accuracy)
